@@ -1,0 +1,32 @@
+PostgreSQL_Data_Type,Snowflake_Data_Type,Comments
+tinyint,tinyint,
+smallint,smallint,
+mediumint,integer,
+int,integer,
+integer,integer,
+bigint,bigint,
+decimal,decimal,
+numeric,decimal,
+real,real,
+double precision,double precision,
+boolean,boolean,
+char,char,
+character,char,
+character varying,char,
+char(n),char,
+character(n),char,
+name,varchar,
+varchar,varchar,
+varchar(n),varchar(n),
+bytea,binary,
+tinytext,text,
+text,text,
+mediumtext,text,
+longtext,text,
+enum,varchar,WARNING: Closest target datatype is VARCHAR
+date,date,
+time without time zone,time,
+timestamp without time zone,timestamp,
+array,,ALERT: Missing datatype mapping
+user-defined,,ALERT: Missing datatype mapping
+tsvector,varchar,WARNING: Closest target datatype is VARCHAR
